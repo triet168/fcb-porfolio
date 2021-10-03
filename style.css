@@ -1,0 +1,66 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+h1, h2 {
+	font-family: "Montserrat", sans-serif;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+}
+
+/*CSS Specificity Rule: 
+
+Determine which rule to prioritize, depending on general vs specific
+*/
+
+/*
+selector {
+	css-property: value;
+}
+
+*/
+
+#landing {
+	height: 80vh;
+	/*vh = viewport height = screen height*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.jumbotron {
+	background-color: transparent;
+}
+
+#gallery {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 75vh;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+h2 {
+	color: #007bff;
+}
+
+.tools {
+	padding: 25px;
+	height: 200px;
+	border: 5px solid #f2f2f2;
+	margin: 20px;
+	width: 75%;
+}
+
+html {
+	scroll-behavior: smooth;
+}
